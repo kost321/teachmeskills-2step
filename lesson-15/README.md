@@ -1,2 +1,1 @@
-# kost321-JSFEPRESCHOOL
-Private repository for @kost321
+"It's  my first professional commit"
