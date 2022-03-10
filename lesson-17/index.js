@@ -5,9 +5,9 @@
 
 // task 1
 
-// const a = ("'true'");
-// const b = Boolean(NaN);
-// const c = (17);
+// const a = 'true';
+// const b = false;
+// const c = 17;
 // const d = undefined;
 // const e = null;
 // console.log(typeof a);
@@ -31,8 +31,8 @@
 
 // task 3
 
-// for (let i = 1; i <= 20; i+=1) {
-//     if (i % 3 == 0) {
+// for (let i = 1; i <= 20; i += 1) {
+//     if (i % 3 === 0) {
 //       console.log(i);
 //     }
 // }
@@ -45,7 +45,7 @@
 // const pen = true;
 // const apple = false;
 // const orange = true;
-// let shouldGoToWork = (key && documents && pen && apple || orange);
+// let shouldGoToWork = key && documents && pen && (apple || orange);
 // console.log(shouldGoToWork);
 
 
@@ -66,14 +66,14 @@
 
 // let age = prompt("Введите возраст");
 
-// if (age >= 18) {
+// if (age > 18) {
 //     alert("Попей пивка");
 //     alert("Можешь выкурить сигаретку, только маме не говори");
-// } else if(age < 18) {
+// } else if(age <= 18) {
 //     alert("Пей колу");
-//         if(age >= 16) { 
-//             alert("Можешь выкурить сигаретку, только маме не говори");
-//         }
+//     if(age >= 16) { 
+//          alert("Можешь выкурить сигаретку, только маме не говори");
+//     }
 // } 
 
 
