@@ -27,9 +27,9 @@ console.log(x + y + z);*/
 
 /*Task2
 
-const SECONDSINMINUTE = 60;
-const MINUTESINHOUR = 60;
-const HOURSINDAY = 24;
+const SECONDS_IN_MINUTE = 60;
+const MINUTES_IN_HOUR = 60;
+const HOURS_IN_DAY = 24;
 let daysInYear = 365;
 let myAge = 25;
 let myAgeInSeconds = (myAge * daysInYear * HOURSINDAY * MINUTESINHOUR * SECONDSINMINUTE);
@@ -131,6 +131,7 @@ let year = prompt("Введите год");
 let century = (year/4);
 alert("Если целое число то год високосный");
 confirm(century);*/
+
 
 /*TASK 4
 
