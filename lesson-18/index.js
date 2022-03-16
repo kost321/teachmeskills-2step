@@ -19,12 +19,12 @@
 
 //task2
 
-// let percentageYear = 0.17;
-// let numberOfYears = 5;
+// const percentageYear = 0.17;
+// const numberOfYears = 5;
 
 // function credit(n) {
 
-//     return ( n * (percentageYear * numberOfYears) );
+//     return n * (percentageYear * numberOfYears);
 // }
 
 // let x = +prompt();
@@ -33,11 +33,12 @@
 
 //task3
 
-// function trimString(n) {
-//     let x = prompt("");
-//     let y = prompt("");
+//let start = prompt("");
+//let end = prompt("");
 
-//     return n = str.substring(x, y);
+// function trimString(n) {
+
+//     return n = str.substring(start, end);
 // }
 
 // let str = prompt("");
@@ -47,7 +48,7 @@
 //task4
 
 // function getNumbersSum(num) {
-//     let figures = "" + num;
+//     let figures = num.toString();
 //     let sum = 0;
       
 //     for (let i = 0; i < figures.length; i +=1) {
@@ -66,24 +67,22 @@
 // let a = +prompt("Введите число");
 // let b = +prompt("Введите число");
 
-// function getSum() {
+// function getSum(a, b) {
 
 //     if (a === b) {
-//         return alert(a && b);
-//     } else { 
+//         return a;
+//     }
 //         let sum = 0;
 
-//         while(a <= b) {       
-//             sum += a;  
-//             a ++;
+//         while(a <=b ) {       
+//             sum = sum + a;  
+//             a += 1;
 //         }
 
 //         return alert(sum);
-//     }
 // }
 
-// let result = getSum();
-// console.log(getSum(result));
+// console.log(getSum(a, b));
 
 
 //task6
