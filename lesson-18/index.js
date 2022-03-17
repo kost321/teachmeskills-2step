@@ -70,47 +70,49 @@
 // function getSum(a, b) {
 
 //     if (a === b) {
-//         return a;
-//     }
+//         return a ;
+//     } 
+//         if(a > b) {
+//             let c = b ;
+//             b = a;
+//             a = c;
+//         }
+
 //         let sum = 0;
 
-//         while(a <=b ) {       
-//             sum = sum + a;  
+//         while(a <= b ) {       
+//             sum += a;  
 //             a += 1;
 //         }
 
-//         return alert(sum);
-// }
+//         return sum;
+//     }
 
 // console.log(getSum(a, b));
 
 
 //task6
 
-// Не получилось написать в развёрнутой форме
-
-// function fooboo(boolean, foo, boo,) {
-
-//     if (function() {
-//         console.log(foo);
-//         })();{
-//          return boolean === true
-//         } else {
-//         (function() {
-//         console.log(boo);
-//         })();
+// function fooboo(booleanValue, nameFoo, nameBoo) {
+//     if(booleanValue === true) {
+//         nameFoo();
+//     } else {
+//         nameBoo();
 //     }
 // }
 
-// alert(fooboo(true, "foo", "boo"));
-
-
-//Данный код позаимствовал у Антона
-
-// function fooboo(n,x,y){
-//     return n === true ? (function (){console.log(x);})() : (function (){console.log(y);})()
+// function foo() {
+//     console.log("foo");
 // }
-// alert(fooboo(true,'foo','boo'));
+
+// function boo() {
+//     console.log("boo");
+// }
+
+// fooboo(false, foo, boo);
+
+
+
 
 
 
