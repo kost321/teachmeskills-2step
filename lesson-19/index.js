@@ -91,3 +91,30 @@
 //     }
 
 
+// ADVANCED level
+
+// task2
+
+// let student1 = {
+//     name: 'Polina',
+//     age: 27,
+// }
+// let student2 = {
+//     name: 'Polina',
+//     age: 27,
+// }
+// console.log(JSON.stringify(student1) === JSON.stringify(student2));
+
+//task3
+
+// const animals = {
+//     cat: {
+//        name: 'Енчик',
+//        age: 3,
+//     },
+//     dog: {
+//        name: 'Орео',
+//        age: 2,
+//     }
+//  }
+//  console.log(animals && animals.bird && animals.bird.name);
