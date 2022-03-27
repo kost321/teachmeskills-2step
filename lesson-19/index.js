@@ -93,6 +93,35 @@
 
 // ADVANCED level
 
+//task1
+
+// const scoreObject = {
+//     0 : "zero",
+//     1 : "one",
+//     2 : "two",
+//     3 : "three",
+//     4 : "foure",
+//     5 : "five",
+//     6 : "six",
+//     7 : "seven",
+//     8 : "eight",
+//     9 : "nine"
+// }
+
+// function logScore(scoreString) {
+//     const numbers = scoreString.split(':');
+//     const firstNumber = numbers[0];
+//     const secondNumber = numbers[1];
+//     const firstNumberString = scoreObject[firstNumber];
+//     const secondNumberString = scoreObject[secondNumber];
+//     console.log(firstNumberString, secondNumberString);
+// }
+
+// const scoreString = '2:5';
+// logScore(scoreString);
+
+
+
 // task2
 
 // let student1 = {
