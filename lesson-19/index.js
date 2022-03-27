@@ -37,7 +37,7 @@
 //         console.log(key);
 //     }
 //     for(let key in student) {
-//         console.log( student[key]);
+//         console.log(student[key]);
 //     }
 
 
@@ -76,12 +76,12 @@
 
 //task6
 
-// let interLogin = prompt("Введите логин");
-// let interPassword = prompt("Введите пароль");
+// let enterLogin = prompt("Введите логин");
+// let enterPassword = prompt("Введите пароль");
 
 // let result = {
-//     login : interLogin,
-//     password : interPassword
+//     login: enterLogin,
+//     password: enterPassword
 // } 
 // let x = confirm("Вы верно ввели логи и пароль?");
 //     if (x === true) {
@@ -116,5 +116,5 @@
 //        name: 'Орео',
 //        age: 2,
 //     }
-//  }
-//  console.log(animals && animals.bird && animals.bird.name);
+// }
+// console.log( animals && animals.bird && animals.bird.name );
