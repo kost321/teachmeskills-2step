@@ -70,33 +70,89 @@
 
 
 
+//ADVANCED level
 
 
+//task1
 
-// function sumInput() {
+// let input = 'wow';
 
-//     let n = [];
+// function palindrom (input) {
+//     let reversedInput = '';
 
-//     while(true) {
-
-//         let value = prompt("Введите число");
-//         if( value === "" || value === null || isFinite(value)) break;
-// c
-//         n.push(value);
+//     for (let character of input) {
+//         reversedInput =  character + reversedInput;
+//         console.log(reversedInput);
 //     }
 
-//     let sum = 0;
-//     for( let n of n) {
-//         sum += n;
-    
-//     }
-   
-//     return sum;
-
+//     return input === reversedInput;
 // }
 
-// console.log( sumInput() );
+// console.log(palindrom(input))
 
 
+//task2
+
+// const matrix = [
+//     [12, 98, 78, 65, 23],
+//     [54, 76, 98, 43, 65],
+//     [13, 324, 65, 312],
+//     [9092, 22, 45, 90000],
+// ];
+
+// function sumMatrix (matrix) {
+//     let sum = 0;
+//     let count = 0;
+//     for (let i = 0; i < matrix.length; i += 1) {
+//         for (let j = 0; j < matrix[i].length; j += 1) {
+//             sum += matrix[i][j];
+//             count += 1;
+//         }
+//     }
+//     let result = sum / count;
+
+//     return result;
+// }
+
+//  console.log(sumMatrix(matrix));
 
 
+//task3
+
+// const mixedNumbers = [-14, 24, -89, 43, 0 , -1, 412, 4];
+
+// function getArrays (mixedNumbers) {
+//     const positivNumbers = [];
+//     const negaticNumbers = [];
+
+//     for (let i = 0; i < mixedNumbers.length; i += 1) {
+//         if (mixedNumbers[i] >= 0 ) {
+//             positivNumbers.push(mixedNumbers[i]);
+//         } else {
+//             negaticNumbers.push(mixedNumbers[i]);
+//         }
+//     } 
+//     console.log(positivNumbers, negaticNumbers);
+// }
+
+// getArrays(mixedNumbers);
+
+
+//task4
+
+// function getRandomInt() {
+//     const numbers = [];
+//     const numbersInCub = [];
+    
+//     for (let i = 0; i < 5; i += 1) {
+//         numbers.push( Math.floor(Math.random() * 100) );
+//     }
+//     console.log(numbers);
+
+//     for (let i = 0; i < numbers.length; i += 1) {
+//         numbersInCub.push( Math.pow(numbers[i], 3) );
+//     }
+//     console.log(numbersInCub);
+// }
+
+// getRandomInt();
