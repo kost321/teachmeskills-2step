@@ -17,7 +17,7 @@
 //task2
 
 // const users = ['Darya', 'Masha', 'Denis', 'Vitaliy', 'Polina', 'Anton'];
-// const newUsers = users.map((f) => f ='member' + ': ' + f);
+// const newUsers = users.map((f, index) => `member ${index + 1}: ${f}`);
 
 // console.log(newUsers);
 
@@ -85,23 +85,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//class work
 
 
 // let arr = [{a: 1}, {id: 2}, {id:3}, {}].filter(object => object.id)
