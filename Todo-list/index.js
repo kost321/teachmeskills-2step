@@ -1,8 +1,8 @@
-const root = document.getElementById('root')
+ const root = document.getElementById('root')
 
 // ----------------- Action Panel -----------------
 
-const bigWrapper = document.createElement('div')
+ const bigWrapper = document.createElement('div')
 bigWrapper.classList.add('container')
 
 const wrapperRow = document.createElement('div')
@@ -43,7 +43,7 @@ console.log('transformedTodos', transformedTodos);
 bigWrapper.append(wrapperRow, ...transformedTodos)
 root.append(bigWrapper)
 
-function saveTodos(todos) {
+ function saveTodos(todos) {
   localStorage.setItem('todos', JSON.stringify(todos))
 }
 

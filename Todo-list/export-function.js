@@ -14,6 +14,7 @@ export function getTodo(todoObject, index, todos) {
       todoObject.isChecked = !todoObject.isChecked;
       completeButton.innerText = todoObject.isChecked ? '✓' : ''
       todoElement.classList.toggle('complete');
+      todoTextElement.classList.toggle('complete');
       // saveTodos(todos);
     })
     const columnWrapper = document.createElement('div')
