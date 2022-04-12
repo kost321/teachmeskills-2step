@@ -66,12 +66,13 @@ function getTodo(text) {
 
   const completeButton = document.createElement('button')
   completeButton.classList.add('btn-todo-action',)
-  completeButton.innerText = '✓'
+  completeButton.innerText = ''
   completeButton.addEventListener('click', () => {
     completeButton.innerText = completeButton.innerText === '' ? "✓" : ''
     todoElement.classList.toggle('complete');
     todoTextElement.classList.toggle('complete-text');
     showAllCompleted()
+
   })
 
   const todoTextElement = document.createElement('div')
@@ -153,28 +154,46 @@ elementAdd.addEventListener('click',showAllCompleted)
 
 //----------------ShowAll----------------------
 
-// const showAllTodos = () => {
-//   const todosElements = document.querySelector('block__btn')
-//   todosContainer.append(getTodo(text));
-// }
+const showAllTodos = () => {
+  const todosElements = document.querySelector('block__btn');
+  let todosContainer =  document.querySelector('.todosContainerClass');
+  todosContainer = document.querySelectorAll('.todo-item:not(.complete)').forEach(e=> e.style.visibility= "visible")
+}
 
-// elemShow.addEventListener('click',showAllTodos)
+elemShow.addEventListener('click',showAllTodos)
 
 // //---------------showAComleted--------------
 
-const completec = () => {
-  if (todoElement.classList.contains('complete')) {
-
-    todoElement.classList.remove('hide')
-  } else if (todoElement.classList.contains('todo-item')) {
-    console.log('todoElement')
-    todoElement.classList.add('hide');
-  }
+const showAllTodosCompleted = () => {
+  const todosElement = document.querySelector('block__btn-comleted');
+  let todosContainer =  document.querySelector('.todosContainerClass');
+  todosContainer = document.querySelectorAll('.todo-item:not(.complete)').forEach(e=> e.style.visibility= "hidden")
+  console.log(todosContainer)
 }
-elemCompleted.addEventListener('click', completec)
+
+elemCompleted.addEventListener('click',showAllTodosCompleted)
 
 
 //---------------search---------------
+
+
+const search = () => {
+  const todosElements = document.querySelector('block__input');
+  let todosContainer =  document.querySelector('.todosContainerClass');
+  let todoItem = document.querySelector('.todo-text')
+  let todotemcomplete = document.querySelectorAll('.todo-item.complete')
+    if (todosElements === todoItem) {
+      todosContainer = todotemcomplete;
+      console.log(todosContainer)
+    } else {
+ 
+      
+    }
+
+  }
+ 
+
+addTextField.addEventListener('click',search)
 
 
 bigWrapper.append(wrapperRow,wrapper,todosContainer)
